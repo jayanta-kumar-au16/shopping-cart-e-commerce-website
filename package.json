@@ -1,13 +1,21 @@
 {
-  "name": "jwt",
+  "name": "shopping-cart-e-commerce-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "basic e-commrce website",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayanta-kumar-au16/shopping-cart-e-commerce-website.git"
+  },
+  "author": "jayanta",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayanta-kumar-au16/shopping-cart-e-commerce-website/issues"
+  },
+  "homepage": "https://github.com/jayanta-kumar-au16/shopping-cart-e-commerce-website#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cloudinary": "^1.25.1",
