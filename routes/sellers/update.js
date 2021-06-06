@@ -33,7 +33,7 @@ router.get("/grocery_update", async (req, res) => {
     console.log(seller_id);
     const getproducts = await all_products.find({ seller_id,category:"Grocery" }).lean();
     console.log(getproducts);
-    res.render("selle r_productUpdate", { layout: "update", getproducts });
+    res.render("seller_productUpdate", { layout: "update", getproducts });
   } catch (error) {
     res.status(500).send(`Internal Error Occurred: ${error._message}`);
   }
